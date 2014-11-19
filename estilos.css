@@ -1,0 +1,184 @@
+@font-face {
+font-family: aday;
+src: url(fuentes/ADayInAutumn.ttf);
+}
+@font-face {
+font-family: kgverano;
+src: url(fuentes/kg_summer_sunshine/KGSummerSunshineShadow.ttf);
+}
+
+body{
+	width:100%;
+	height:100%;
+	background:url(fondo.jpg);
+	}
+#contenedor{
+	width:80%;
+	height:auto;
+	margin:auto;
+	text-align:center;
+	}
+#home{
+	width:100%;
+	height:100%;
+	background-color:rgba(255,255,255,0.5);
+	text-align:center;
+	border-radius:20px;
+	}
+#botones{
+	width:100%;
+	height:40px;
+	text-align:center;
+	margin:auto;
+	}
+#respuesta{
+	width:100%;
+	height:100%;
+	background-color:rgba(255,255,255,0.5);
+	text-align:center;
+	border-radius:20px;
+	
+	}
+h1, h2{
+	font-family:kgverano, verdana;
+	}
+#jugar{
+	width:100%;
+	height:100%;
+	margin-bottom:100px;
+	}
+#btnjugar{
+	width:70%;
+	height:40px;
+	background-color:rgba(29,255,0,0.6);
+	border-radius:10px;
+	margin-bottom:5px;
+	font-size:100%;
+	}
+#btninstrucciones{
+	width:70%;
+	height:40px;
+	background-color:rgba(29,255,0,0.6);
+	border-radius:10px;
+	margin-top:5px;
+	font-size:100%;
+	margin-bottom:5px;
+	}
+#btninfo{
+	width:70%;
+	height:40px;
+	background-color:rgba(29,255,0,0.6);
+	border-radius:10px;
+	margin-top:5px;
+	font-size:100%;
+	}
+#btnjugaragain{
+	width:70%;
+	height:40px;
+	background-color:rgba(29,255,0,0.6);
+	border-radius:10px;
+	margin-bottom:5px;
+	font-size:100%;
+	}
+#btnagain{
+	width:100%;
+	height:100%;
+	margin-bottom:100px;
+	}
+/*a{
+	text-decoration:none;
+	}*/
+input{
+	border-style:none;
+	box-shadow:10px 10px 10px rgba(0,0,0,0.5);
+	}
+#si{
+	width:30%;
+	height:90%;
+	background-color:rgba(29,255,0,0.6);
+	color:white;
+	font-size:100%;
+	border-radius:10px;
+	margin-right:2px;
+}
+#no{
+	width:30%;
+	height:90%;
+	background-color:rgba(255,0,0,0.6);
+	color:white;
+	font-size:100%;
+	border-radius:10px;
+	margin-left:2px;
+	}
+.tabla{
+	text-align:center;
+	background-color:rgba(255,255,255,0.7);
+	border-radius:12%;
+	
+}
+table{
+	margin:auto;
+	text-align:center;
+	width:100%;
+	border:2px;
+	}
+
+td{
+	font-size:200%;
+	font-family:aday, verdana;
+	width:5%;
+	height:auto;
+}
+#instrucciones{
+	width:100%;
+	height:100%;
+	background-color:rgba(255,255,255,0.5);
+	text-align:center;
+	border-radius:20px;
+	}
+#instrucciones td{
+	font-family:kgverano, verdana;
+	font-size:160%;
+	}
+#info{
+	width:100%;
+	height:100%;
+	background-color:rgba(255,255,255,0.5);
+	text-align:center;
+	border-radius:20px;
+	}
+#info td{
+	font-family:kgverano, verdana;
+	font-size:160%;
+	text-align:center;
+	}
+#btnvolver{
+	width:70%;
+	height:40px;
+	background-color:rgba(29,255,0,0.6);
+	border-radius:10px;
+	margin-bottom:100px;
+	font-size:100%;
+	}
+#btnvolverres{
+	width:70%;
+	height:40px;
+	background-color:rgba(29,255,0,0.6);
+	border-radius:10px;
+	margin-top:5px;
+	margin-bottom:100px;
+	font-size:100%;
+	}
+#btnvolverinfo{
+	width:70%;
+	height:40px;
+	background-color:rgba(29,255,0,0.6);
+	border-radius:10px;
+	margin-top:2px;
+	margin-bottom:100px;
+	font-size:100%;
+	}
+img{
+	width:50%;
+	height:auto;
+	}
